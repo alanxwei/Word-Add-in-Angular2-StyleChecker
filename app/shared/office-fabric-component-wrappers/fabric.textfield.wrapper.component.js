@@ -36,7 +36,6 @@ var FabricTextFieldWrapperComponent = /** @class */ (function () {
         this.value = this.field._textField.value;
         this.textEntered.emit(this.value);
     };
-    var _a, _b;
     __decorate([
         (0, core_1.Input)(),
         __metadata("design:type", String)
@@ -51,14 +50,14 @@ var FabricTextFieldWrapperComponent = /** @class */ (function () {
     ], FabricTextFieldWrapperComponent.prototype, "value", void 0);
     __decorate([
         (0, core_1.Output)(),
-        __metadata("design:type", typeof (_b = typeof core_1.EventEmitter !== "undefined" && core_1.EventEmitter) === "function" ? _b : Object)
+        __metadata("design:type", core_1.EventEmitter)
     ], FabricTextFieldWrapperComponent.prototype, "textEntered", void 0);
     FabricTextFieldWrapperComponent = __decorate([
         (0, core_1.Component)({
             selector: 'of-textfield',
             templateUrl: 'app/shared/office-fabric-component-wrappers/fabric.textfield.wrapper.component.html',
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof core_1.ElementRef !== "undefined" && core_1.ElementRef) === "function" ? _a : Object])
+        __metadata("design:paramtypes", [core_1.ElementRef])
     ], FabricTextFieldWrapperComponent);
     return FabricTextFieldWrapperComponent;
 }());

@@ -30,13 +30,12 @@ var InstructionStepsComponent = /** @class */ (function () {
             { step_number: 3, content: "Enter the zero-based numbers of the parapgraphs that should be exempt in the Skip Paragraphs box." },
             { step_number: 4, content: "Press Replace." }];
     }
-    var _a;
     InstructionStepsComponent = __decorate([
         (0, core_1.Component)({
             templateUrl: 'app/instructions/instruction-steps.component.html',
             styleUrls: ['app/instructions/instruction-steps.component.css']
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof router_1.Router !== "undefined" && router_1.Router) === "function" ? _a : Object])
+        __metadata("design:paramtypes", [router_1.Router])
     ], InstructionStepsComponent);
     return InstructionStepsComponent;
 }());

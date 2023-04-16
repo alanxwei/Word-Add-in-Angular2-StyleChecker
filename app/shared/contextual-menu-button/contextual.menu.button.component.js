@@ -26,14 +26,13 @@ var ContextualMenuButtonComponent = /** @class */ (function () {
             .children[0]; // = <ul class="ms-ContextualMenu" ... >
         menuElement.classList.toggle("is-open");
     };
-    var _a;
     ContextualMenuButtonComponent = __decorate([
         (0, core_1.Component)({
             selector: 'sc-contextual-menu-button',
             templateUrl: 'app/shared/contextual-menu-button/contextual.menu.button.component.html',
             styleUrls: ['app/shared/contextual-menu-button/contextual.menu.button.component.css'],
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof core_1.ElementRef !== "undefined" && core_1.ElementRef) === "function" ? _a : Object])
+        __metadata("design:paramtypes", [core_1.ElementRef])
     ], ContextualMenuButtonComponent);
     return ContextualMenuButtonComponent;
 }());
