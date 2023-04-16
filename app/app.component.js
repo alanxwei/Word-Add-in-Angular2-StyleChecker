@@ -16,7 +16,7 @@ var AppComponent = /** @class */ (function () {
     function AppComponent() {
     }
     AppComponent = __decorate([
-        core_1.Component({
+        (0, core_1.Component)({
             selector: 'sc-app',
             template: "\n    <div>        \n        <div class='container'>\n            <router-outlet></router-outlet>\n        </div>\n     </div>\n     "
         })

@@ -19,7 +19,7 @@ var BrandFooterComponent = /** @class */ (function () {
     function BrandFooterComponent() {
     }
     BrandFooterComponent = __decorate([
-        core_1.Component({
+        (0, core_1.Component)({
             selector: 'sc-brand-footer',
             templateUrl: 'app/shared/brand-footer/brand.footer.component.html',
             styleUrls: ['app/shared/brand-footer/brand.footer.component.css'],

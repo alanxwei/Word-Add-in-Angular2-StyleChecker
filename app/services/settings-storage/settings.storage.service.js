@@ -28,7 +28,7 @@ var SettingsStorageService = /** @class */ (function () {
         window.localStorage.removeItem(specificKey);
     };
     SettingsStorageService = __decorate([
-        core_1.Injectable(),
+        (0, core_1.Injectable)(),
         __metadata("design:paramtypes", [])
     ], SettingsStorageService);
     return SettingsStorageService;

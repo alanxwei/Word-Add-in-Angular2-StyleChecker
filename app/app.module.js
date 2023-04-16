@@ -34,7 +34,7 @@ var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
-        core_1.NgModule({
+        (0, core_1.NgModule)({
             imports: [
                 platform_browser_1.BrowserModule,
                 app_routing_module_1.AppRoutingModule

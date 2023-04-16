@@ -36,16 +36,17 @@ var SettingsComponent = /** @class */ (function () {
     SettingsComponent.prototype.onRadioButtonSelected = function (specificSetting, value) {
         this.settingsStorage.store(specificSetting, value);
     };
+    var _a, _b;
     __decorate([
-        core_1.ViewChild('always'),
-        __metadata("design:type", core_1.ElementRef)
+        (0, core_1.ViewChild)('always'),
+        __metadata("design:type", typeof (_a = typeof core_1.ElementRef !== "undefined" && core_1.ElementRef) === "function" ? _a : Object)
     ], SettingsComponent.prototype, "alwaysRadioButton", void 0);
     __decorate([
-        core_1.ViewChild('onlyFirstTime'),
-        __metadata("design:type", core_1.ElementRef)
+        (0, core_1.ViewChild)('onlyFirstTime'),
+        __metadata("design:type", typeof (_b = typeof core_1.ElementRef !== "undefined" && core_1.ElementRef) === "function" ? _b : Object)
     ], SettingsComponent.prototype, "onlyFirstTimeRadioButton", void 0);
     SettingsComponent = __decorate([
-        core_1.Component({
+        (0, core_1.Component)({
             templateUrl: 'app/settings/settings.component.html',
             styleUrls: ['app/settings/settings.component.css']
         }),

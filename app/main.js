@@ -7,7 +7,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var platform_browser_dynamic_1 = require("@angular/platform-browser-dynamic");
 var app_module_1 = require("./app.module");
 function launch() {
-    var platform = platform_browser_dynamic_1.platformBrowserDynamic();
+    var platform = (0, platform_browser_dynamic_1.platformBrowserDynamic)();
     platform.bootstrapModule(app_module_1.AppModule);
 }
 if (window.hasOwnProperty('Office') && window.hasOwnProperty('Word')) {

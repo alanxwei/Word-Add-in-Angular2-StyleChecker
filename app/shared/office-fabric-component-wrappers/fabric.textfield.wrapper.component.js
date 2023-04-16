@@ -36,28 +36,29 @@ var FabricTextFieldWrapperComponent = /** @class */ (function () {
         this.value = this.field._textField.value;
         this.textEntered.emit(this.value);
     };
+    var _a, _b;
     __decorate([
-        core_1.Input(),
+        (0, core_1.Input)(),
         __metadata("design:type", String)
     ], FabricTextFieldWrapperComponent.prototype, "innerlabel", void 0);
     __decorate([
-        core_1.Input(),
+        (0, core_1.Input)(),
         __metadata("design:type", String)
     ], FabricTextFieldWrapperComponent.prototype, "id", void 0);
     __decorate([
-        core_1.Input(),
+        (0, core_1.Input)(),
         __metadata("design:type", String)
     ], FabricTextFieldWrapperComponent.prototype, "value", void 0);
     __decorate([
-        core_1.Output(),
-        __metadata("design:type", core_1.EventEmitter)
+        (0, core_1.Output)(),
+        __metadata("design:type", typeof (_b = typeof core_1.EventEmitter !== "undefined" && core_1.EventEmitter) === "function" ? _b : Object)
     ], FabricTextFieldWrapperComponent.prototype, "textEntered", void 0);
     FabricTextFieldWrapperComponent = __decorate([
-        core_1.Component({
+        (0, core_1.Component)({
             selector: 'of-textfield',
             templateUrl: 'app/shared/office-fabric-component-wrappers/fabric.textfield.wrapper.component.html',
         }),
-        __metadata("design:paramtypes", [core_1.ElementRef])
+        __metadata("design:paramtypes", [typeof (_a = typeof core_1.ElementRef !== "undefined" && core_1.ElementRef) === "function" ? _a : Object])
     ], FabricTextFieldWrapperComponent);
     return FabricTextFieldWrapperComponent;
 }());

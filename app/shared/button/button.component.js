@@ -19,11 +19,11 @@ var ButtonComponent = /** @class */ (function () {
     function ButtonComponent() {
     }
     __decorate([
-        core_1.Input(),
+        (0, core_1.Input)(),
         __metadata("design:type", String)
     ], ButtonComponent.prototype, "buttonlabel", void 0);
     ButtonComponent = __decorate([
-        core_1.Component({
+        (0, core_1.Component)({
             selector: 'sc-button',
             templateUrl: 'app/shared/button/button.component.html',
             styleUrls: ['app/shared/button/button.component.css']

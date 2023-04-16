@@ -42,14 +42,14 @@ var FindAndReplaceComponent = /** @class */ (function () {
     FindAndReplaceComponent.prototype.replace = function () {
         this.wordDocument.replaceFoundStringsWithExceptions(this.searchString, this.replaceString, this.excludedParagraph);
     };
+    var _a;
     FindAndReplaceComponent = __decorate([
-        core_1.Component({
+        (0, core_1.Component)({
             templateUrl: 'app/find-and-replace/find-and-replace.component.html',
             styleUrls: ['app/find-and-replace/find-and-replace.component.css'],
         }),
         __metadata("design:paramtypes", [word_document_service_1.WordDocumentService,
-            settings_storage_service_1.SettingsStorageService,
-            router_1.Router])
+            settings_storage_service_1.SettingsStorageService, typeof (_a = typeof router_1.Router !== "undefined" && router_1.Router) === "function" ? _a : Object])
     ], FindAndReplaceComponent);
     return FindAndReplaceComponent;
 }());

@@ -39,15 +39,14 @@ var FabricContextualMenuWrapperComponent = /** @class */ (function () {
             .children[0]; // = <ul class="ms-ContextualMenu" ... >
         menuElement.classList.remove("is-open");
     };
+    var _a, _b;
     FabricContextualMenuWrapperComponent = __decorate([
-        core_1.Component({
+        (0, core_1.Component)({
             selector: 'of-contextual-menu',
             templateUrl: 'app/shared/office-fabric-component-wrappers/fabric.contextual.menu.wrapper.component.html',
             styleUrls: ['app/shared/office-fabric-component-wrappers/fabric.contextual.menu.wrapper.component.css']
         }),
-        __metadata("design:paramtypes", [word_document_service_1.WordDocumentService,
-            router_1.Router,
-            core_1.ElementRef])
+        __metadata("design:paramtypes", [word_document_service_1.WordDocumentService, typeof (_a = typeof router_1.Router !== "undefined" && router_1.Router) === "function" ? _a : Object, typeof (_b = typeof core_1.ElementRef !== "undefined" && core_1.ElementRef) === "function" ? _b : Object])
     ], FabricContextualMenuWrapperComponent);
     return FabricContextualMenuWrapperComponent;
 }());

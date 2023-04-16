@@ -19,7 +19,7 @@ var NavigationHeaderComponent = /** @class */ (function () {
     function NavigationHeaderComponent() {
     }
     NavigationHeaderComponent = __decorate([
-        core_1.Component({
+        (0, core_1.Component)({
             selector: 'sc-navigation-header',
             templateUrl: 'app/shared/navigation-header/navigation.header.component.html',
             styleUrls: ['app/shared/navigation-header/navigation.header.component.css'],

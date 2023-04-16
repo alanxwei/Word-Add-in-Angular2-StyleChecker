@@ -92,7 +92,7 @@ var WordDocumentService = /** @class */ (function () {
         }
     };
     WordDocumentService = __decorate([
-        core_1.Injectable()
+        (0, core_1.Injectable)()
     ], WordDocumentService);
     return WordDocumentService;
 }());
